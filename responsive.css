@@ -1,5 +1,14 @@
 /* col-   Extra Small */
 @media screen and (max-width:576px) {
+    .heading-title {
+        font-size: 20px;
+    }
+    
+    .card {
+        margin: 20px;
+        height: auto;
+
+    }
     .container {
         max-width: auto;
     }
@@ -45,6 +54,9 @@
 }
 /* .col-sm-  Small */
 @media screen and (min-width:576px) {
+    .card {
+        height: 90%;
+    }
     .container {
         max-width: 540px;
     }
@@ -89,6 +101,9 @@
 }
 /* .col-md- Medium */
 @media screen and (min-width:768px) {
+    .card {
+        height: 95%;
+    }
     .container {
     max-width: 720px;
         }
@@ -133,6 +148,7 @@
 }
 /* .col-lg-  Large*/
 @media screen and (min-width:992px) {
+
 
     .container {
         max-width: 960px;
